@@ -5,4 +5,4 @@ https://gaussian37.github.io/dl-pytorch-gradient/
 
 
 ## PyTorch로 시작하는 딥 러닝 입문
-[https://wikidocs.net/60034
+[코드 및 내용 출처] : https://wikidocs.net/60034

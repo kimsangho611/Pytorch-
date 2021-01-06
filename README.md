@@ -24,4 +24,4 @@ class Net(nn.Module):
 </code>
 </pre>
 - 여기서 우리가 주목해야 할 곳은 super(Net, self).__init__()이다.
-- 위 함수가 호출되어 nn.Module에서 __init()__을 실행하면 __call__ 메소드가 호출되어 모델에 전달된 값을 호출하여 forward함수에 
+- 위 함수가 호출되어 nn.Module에서 `__init__()`을 실행하면 `__call__` 메소드가 호출되어 모델에 전달된 값을 호출하여 forward함수에 인자를 전달함으로써 신경망을 통과하게 된다.
